@@ -9,4 +9,8 @@ body {
     height: 100vh;
 }
 
-#container-iphone{position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%);}
+#container-iphone{
+    position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%);
+    width: 280px; height: 565px;
+    background: url('../imagens/frame-iphone-medium.png') no-repeat;
+}
