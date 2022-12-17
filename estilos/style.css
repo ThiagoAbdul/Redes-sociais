@@ -2,3 +2,11 @@
 
 * {margin:0; padding: 0; box-sizing: border-box;}
 
+body {
+    background: #fff url("../imagens/fundo-madeira.jpg") no-repeat fixed center; 
+    background-size: cover;
+    position: relative;
+    height: 100vh;
+}
+
+#container-iphone{position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%);}
