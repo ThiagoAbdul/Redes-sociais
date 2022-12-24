@@ -22,3 +22,27 @@ body {
     width: 242px;
     height:428px;
 }
+
+#redes-sociais {
+    position: absolute;
+    /* background-color: #ffffff55; */
+    right: 32px;
+    top: 50%;
+    transform: translate(0, -50%);
+    height: 484px;
+    width: 64px;
+}
+
+#redes-sociais img {
+    width: 64px;
+    margin-bottom: 16px;
+    border-radius: 50%;
+    box-shadow: 4px 4px 8px rgba(0,0,0,0.8);
+}
+
+#redes-sociais img:hover{
+    transform: scale(110%, 110%);
+    transform: translate(-4px, -4px);
+    transition-duration: .5s;
+    box-shadow: 8px 8px 16px rgba(0,0,0,0.8);
+}
