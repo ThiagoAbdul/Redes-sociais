@@ -14,3 +14,11 @@ body {
     width: 280px; height: 565px;
     background: url('../imagens/frame-iphone-medium.png') no-repeat;
 }
+
+#tela{
+    position: relative;
+    left: 20px;
+    top: 70px;
+    width: 242px;
+    height:428px;
+}
